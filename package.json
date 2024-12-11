@@ -1,0 +1,23 @@
+{
+  "name": "grjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/hydrate": "^1.4.1",
+    "@roz/grammy-autoquote": "npm:@jsr/roz__grammy-autoquote@^2.0.4",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0"
+  }
+}
